@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">足跡スタンプ</string>
+
+    <string name="recording">現在地の記録</string>
+    <string name="history_list">足跡リスト</string>
+    <string name="history_map">足跡マップ</string>
+    <string name="single_map">足跡</string>
+
+    <string name="location_memo_edit_text_hint">タイトルを入力…</string>
+    <string name="location_list_image_view_content_description">detail</string>
+
+    <string name="current_location_marker_title">現在地</string>
+
+    <string name="dialog_text_date_range_selector">表示する期間</string>
+    <string name="dialog_text_create_location">現在地を記録しますか？</string>
+    <string name="dialog_text_delete_location">削除しますか？</string>
+    <string name="dialog_text_confirm">確認</string>
+    <string name="dialog_text_ok">OK</string>
+    <string name="dialog_text_cancel">キャンセル</string>
+
+    <string name="error_location_create">現在地の記録に失敗しました</string>
+    <string name="error_location_delete">現在地の削除に失敗しました</string>
+    <string name="date_range_label_tilde">〜</string>
+
+</resources>

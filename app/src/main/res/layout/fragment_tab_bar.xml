@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="6dp"
+        android:background="@color/primary"
+        tools:context=".fragment.TabBarFragment">
+
+    <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/recordingTabBarButton"
+            android:background="@drawable/tab_bar_button"
+            android:drawableTop="@drawable/ic_rec"
+            android:drawablePadding="0dp"
+            android:textSize="12sp"
+            android:textColor="@color/tab_bar_item_unselected"
+            android:text="@string/recording"/>
+
+    <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/historyListTabBarButton"
+            android:background="@drawable/tab_bar_button"
+            android:drawableTop="@drawable/ic_pins"
+            android:drawablePadding="0dp"
+            android:textSize="12sp"
+            android:textColor="@color/tab_bar_item_unselected"
+            android:text="@string/history_list"/>
+
+    <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/historyMapTabBarButton"
+            android:background="@drawable/tab_bar_button"
+            android:drawableTop="@drawable/ic_map"
+            android:drawablePadding="0dp"
+            android:textSize="12sp"
+            android:textColor="@color/tab_bar_item_unselected"
+            android:text="@string/history_map"/>
+
+</LinearLayout>

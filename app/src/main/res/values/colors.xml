@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#00AB8D</color>
+    <color name="primary_dark">#008A75</color>
+    <color name="accent">#815F52</color>
+
+    <color name="tab_bar_item_selected">#D8FCF6</color>
+    <color name="tab_bar_item_unselected">#9EE1D6</color>
+
+    <color name="list_view_group_background">#F7F7F7</color>
+    <color name="list_view_detail_image_tint">#C7C7CC</color>
+    <color name="list_view_delete_image_tint">#AA0000</color>
+    <color name="list_view_delete_background">#ffefef</color>
+
+    <color name="date_range_label_background">#F2F2F2</color>
+    <color name="date_range_label_text_color">#815F52</color>
+    <color name="date_range_label_date_border_color">#737373</color>
+    <color name="date_range_label_view_border_color">#EBEBEB</color>
+
+    <color name="base_text_color">#444444</color>
+</resources>
